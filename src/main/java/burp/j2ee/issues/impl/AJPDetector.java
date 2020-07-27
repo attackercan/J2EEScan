@@ -69,7 +69,7 @@ public class AJPDetector implements IModule {
                 try {
                     CPong = sendData(host, port, CPing);
                 } catch (IOException ex) {
-                    stderr.println("[!] AJPDetector Socket error: " + host + ":" + port);
+//                     stderr.println("[!] AJPDetector Socket error: " + host + ":" + port);
                 }
 
                 if (CPong != null && getHex(CPong).equalsIgnoreCase("414200010900000000")) {
