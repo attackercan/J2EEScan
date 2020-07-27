@@ -143,7 +143,7 @@ public class AJP_Tomcat_GhostCat implements IModule {
                             stderr.println(ex);
                             
                         } catch (Exception ex) {
-                            stderr.println("AJP Tomcat GhostCat error: " + ex);
+//                             stderr.println("AJP Tomcat GhostCat error: " + ex);
                         }
                         
                         return issues;
@@ -153,7 +153,7 @@ public class AJP_Tomcat_GhostCat implements IModule {
                 ac.disconnect();
 
             } catch (IOException ex) {
-                stderr.println("AJP Tomcat GhostCat error: " + ex);
+//                 stderr.println("AJP Tomcat GhostCat error: " + ex);
             }
         }
 
