@@ -201,7 +201,7 @@ public class BurpExtender implements IBurpExtender, IScannerCheck, IExtensionSta
                                 }
 
                             } catch (SQLException e) {
-                                stderr.println("Ignoring already executed module " + module);
+//                                 stderr.println("Ignoring already executed module " + module);
                             } catch (Exception e) {
                                 stderr.println("Error during module execution " + module);
                                 e.printStackTrace(stderr);
